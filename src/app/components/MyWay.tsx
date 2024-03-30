@@ -14,7 +14,11 @@ export default function MyWay() {
           En el camino conocí el Diseño UX/UI, el cuál me enamoró por completo.
           Entonces comencé a tomar cursos en instituciones y de forma
           autodidacta.
-          <img className="relative left-[85%] " src="Heart_Face.png" alt="cara enamorada"/>
+          <img
+            className="relative left-[85%] "
+            src="Heart_Face.png"
+            alt="cara enamorada"
+          />
         </div>
       </div>
     </section>

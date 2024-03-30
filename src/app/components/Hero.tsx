@@ -3,7 +3,7 @@
 // 8xl es 96px
 // 2xl es 24px
 // 3xl es 30px
-// lg es 18px 
+// lg es 18px
 
 import Avatar from "./ui/Avatar";
 import VectorPig from "./ui/VectorPig";
@@ -17,7 +17,7 @@ export default function Hero() {
         <p className="">¡Hola! Soy Paula.</p>
         <p>Diseñadora UX/UI.</p>
       </div>
-      <VectorPig className="mt-20" startColor="#DBA6F4" endColor="#A981FE"/>
+      <VectorPig className="mt-20" startColor="#DBA6F4" endColor="#A981FE" />
     </div>
   );
 }
