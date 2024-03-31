@@ -13,7 +13,7 @@ const config: Config = {
         "gradient-conic":
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         'linear':'linear-gradient(90deg, rgba(130,180,255,1) 0%, rgba(191,240,255,1) 100%)',
-        'linear-verde':'linear-gradient(90deg, rgba(169,254,129,1) 0%, rgba(192,240,255,1) 100%)',
+        'linear-verde':'linear-gradient(90deg, rgba(192,240,255,1) 0%, rgba(169,254,129,1) 50%)',
         'linear-amarillo':'linear-gradient(90deg, rgba(170,255,130,1) 0%, rgba(255,229,151,1) 100%)',
         'linear-AMA-VIO':'linear-gradient(90deg, rgba(255,199,135,1) 0%, rgba(224,166,244,1) 100%)',
         'linear-violet-azul':'linear-gradient(90deg, rgba(129,179,254,1) 0%, rgba(224,166,244,1) 100%)',
@@ -23,6 +23,7 @@ const config: Config = {
         bg:'#151212',
         paragraph:'#ffffff',
         'linear-hero':'linear-gradient(90deg, rgba(219,166,244,1) 0%, rgba(169,129,254,1) 100%)',
+        button:'#C0F0FF',
 
       },
       borderColor:{
