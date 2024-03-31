@@ -3,7 +3,7 @@ import { DM_Sans, Nanum_Pen_Script, Space_Mono } from "next/font/google";
 import "./globals.css";
 
 const spaceMono = Space_Mono({weight:["400","700"],subsets:["latin"],variable:'--font-spaceMono'});
-const dmSans = DM_Sans({weight:["400","700"],subsets:["latin"],variable:'--font-dmSans'});
+const dmSans = DM_Sans({weight:["100","200","300","400","500","600","700","800"],subsets:["latin"],variable:'--font-dmSans'});
 const nanumPen = Nanum_Pen_Script({weight:["400"],subsets:["latin"],variable:'--font-nanumPen'});
 
 export const metadata: Metadata = {
