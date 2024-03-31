@@ -34,7 +34,7 @@ const works = [
 
 export default function MyWorks() {
   return (
-    <section className="mx-8 lg:mx-20 py-10">
+    <section className="mx-8 lg:mx-20">
       <MyWorksIntroduction />
       <div className="flex lg:flex-row flex-col gap-20">
 
