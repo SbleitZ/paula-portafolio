@@ -19,7 +19,7 @@ const educacion = [
 ];
 export default function MyEducation() {
   return (
-    <section className="p-20 flex justify-center items-center flex-col gap-20">
+    <section className="px-8 py-20 lg:p-20 flex justify-center lg:items-center flex-col gap-20">
       {educacion.map((props, i) => (
         <EducationBox key={i} {...props} />
       ))}
@@ -36,10 +36,10 @@ function EducationBox({ college, date, description }: EducationBoxProps) {
   return (
     <article className="flex flex-col gap-10">
       <div className="font-spaceMono font-extrabold space-y-6 bg-clip-text text-transparent bg-linear">
-        <div className="text-ds-secondary bold">{college}</div>
+        <div className="text-mb-primary lg:text-ds-secondary bold ">{college}</div>
         <span className="text-paragraphText">{date}</span>
       </div>
-      <p className="font-dmSans text-paragraph text-paragraphText">
+      <p className="font-dmSans text-mb-paragraphText text-paragraph lg:text-paragraphText ">
         {description}
       </p>
     </article>
