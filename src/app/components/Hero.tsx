@@ -11,13 +11,13 @@ import VectorPig from "./ui/VectorPig";
 // xs es 12px
 export default function Hero() {
   return (
-    <div className="flex flex-col justify-center items-center p-20 font-spaceMono text-8xl font-bold">
+    <div className="flex flex-col justify-center items-center p-10 lg:p-20 font-spaceMono text-mb-primary lg:text-8xl font-bold">
       <Avatar src="imagen.png" alt="avatar" />
-      <div className="bg-clip-text text-transparent bg-linear-hero text-center space-y-6">
+      <div className="bg-clip-text text-transparent bg-linear-hero text-center space-y-6 mt-10">
         <p className="">¡Hola! Soy Paula.</p>
         <p>Diseñadora UX/UI.</p>
       </div>
-      <VectorPig className="mt-20" startColor="#DBA6F4" endColor="#A981FE" />
+      <VectorPig className="mt-10 lg:mt-20 w-full" startColor="#DBA6F4" endColor="#A981FE" />
     </div>
   );
 }
