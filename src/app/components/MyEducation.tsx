@@ -11,15 +11,10 @@ const educacion = [
     description:
       "Realicé cursos sobre Diseño UX/UI en PoloTic Misiones, CoderHouse, EducacionIT, más tutoriales de YouTube que tomaba de forma autodidacta.\n También tomé cursos de programación Frontend en Plataforma 5, aprendiendo HTML, CSS, Bootstrap y bases de JavaScript.",
   },
-  {
-    college: "",
-    date: "",
-    description: "",
-  },
 ];
 export default function MyEducation() {
   return (
-    <section className="px-8 py-20 lg:p-20 flex justify-center lg:items-center flex-col gap-20">
+    <section className="px-8 pt-20 pb-10 lg:p-20 flex justify-center lg:items-center flex-col gap-20">
       {educacion.map((props, i) => (
         <EducationBox key={i} {...props} />
       ))}
