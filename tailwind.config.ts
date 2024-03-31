@@ -42,6 +42,8 @@ const config: Config = {
         'mb-subtitle':['24px','1'],
         'floatText':['40px','1'],
         'paragraphText':['32px','1'],
+        'mb-paragraphText':['18px','1'],
+        'mb-floatText':['25px','1']
 
       },
     },
