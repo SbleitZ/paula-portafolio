@@ -11,6 +11,7 @@ const works = [
       {
         src:"EuropaUnion.svg",
         alt:"europa union icon label",
+        href:"https://www.behance.net/gallery/169167601/Case-Study-Europa-Union-Frankfurt",
       }
     ]
   },
@@ -22,11 +23,13 @@ const works = [
     buttons:[
       {
         src:"Nomadas.svg",
-        alt:"nomadas icon label"
+        alt:"nomadas icon label",
+        href:"https://www.behance.net/gallery/169192095/Nomadas-UXUI-Design-UI-Kit",
       },
       {
         src:"Reclutando.svg",
         alt:"reclutando icon label",
+        href:"https://www.behance.net/gallery/173183577/Reclutando-Proyecto-UXUI"
       }
     ]
   },
@@ -72,6 +75,7 @@ interface MyWorkBoxProps {
   buttons:{
     src:string;
     alt:string;
+    href:string;
   }[]
 }
 function MyWorkBox({ college, date, description,buttons }: MyWorkBoxProps) {
