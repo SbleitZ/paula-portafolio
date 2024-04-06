@@ -56,7 +56,7 @@ export default function Footer() {
           href="https://sbleit.net/"
         >
           {" "}
-          Sbleit
+          Rodrigo Palacios
         </Link>
         .
       </div>
