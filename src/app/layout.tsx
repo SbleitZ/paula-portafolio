@@ -21,6 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <link rel="icon" href="/favicon.ico" />
       <body className={`${spaceMono.variable} ${dmSans.variable} ${nanumPen.variable}`}>{children}</body>
     </html>
   );
