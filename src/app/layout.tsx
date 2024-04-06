@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Paula Gareis - Diseño UX/UI",
   description: "la descripción aquí",
   icons: {
-    icon: "favicon.ico",
+    icon: "/favicon.ico",
   },
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" data-name="este es el icono" href="/favicon.ico" />
       <body className={`${spaceMono.variable} ${dmSans.variable} ${nanumPen.variable}`}>{children}</body>
     </html>
   );
