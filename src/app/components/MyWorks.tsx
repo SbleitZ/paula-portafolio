@@ -60,7 +60,7 @@ function MyWorksIntroduction() {
       <div className="text-balance font-nanumPen bg-clip-text text-transparent bg-linear-verde lg:max-w-md text-floatText">
         Realicé emulaciones de trabajo como diseñadora ux/ui COLABORANDO en equipos MULTIDISCIPLINARIOS, para fortalecer mi experiencia laboral.
       </div>
-      <img className="mt-6" src="MyWorks.svg" alt="arrow down svg" />
+      <img className="mt-6" src="svgs/MyWorks.svg" alt="arrow down svg" />
     </article>
   );
 }

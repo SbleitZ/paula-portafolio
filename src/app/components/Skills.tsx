@@ -18,7 +18,7 @@ export default function Skills() {
           <Tag key={i} text={tag} />
         ))}
       </div>
-      <img src="ArrowDown.svg" alt="arrow down svg" />
+      <img src="svgs/ArrowDown.svg" alt="arrow down svg" />
     </section>
   );
 }
