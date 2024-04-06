@@ -7,7 +7,7 @@ const dmSans = DM_Sans({weight:["100","200","300","400","500","600","700","800"]
 const nanumPen = Nanum_Pen_Script({weight:["400"],subsets:["latin"],variable:'--font-nanumPen'});
 
 export const metadata: Metadata = {
-  title: "Portafolio paula",
+  title: "Paula Gareis - Diseño UX/UI",
   description: "la descripción aquí",
 };
 
