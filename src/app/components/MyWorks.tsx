@@ -58,7 +58,7 @@ function MyWorksIntroduction() {
   return (
     <article className="flex flex-col lg:flex-row justify-center py-10">
       <div className="text-balance font-nanumPen bg-clip-text text-transparent bg-linear-verde lg:max-w-md text-floatText">
-        Realicé emulaciones de trabajo como diseñadora ux/ui COLABORANDO en equipos MULTIDISCIPLINARIOS, para fortalecer mi experiencia laboral.
+        Realicé emulaciones de trabajo como diseñadora ux/ui colaborando en equipos multidisciplinarios, para fortalecer mi experiencia laboral.
       </div>
       <img className="mt-6" src="svgs/MyWorks.svg" alt="arrow down svg" />
     </article>
@@ -83,7 +83,7 @@ function MyWorkBox({ college, date, description,buttons }: MyWorkBoxProps) {
         </div>
         <span className="text-paragraphText">{date}</span>
       </div>
-      <p className="text-balance font-dmSans text-mb-paragraphText text-paragraph lg:text-paragraphText line-clamp-6 lg:h-64">
+      <p className="leading-6 text-balance font-dmSans text-mb-paragraphText text-paragraph lg:text-paragraphText line-clamp-6 lg:h-64">
         {description}
       </p>
       <div className={cn("h-24 mt-10",buttons.length == 1 ? "":"flex max-lg:flex-col gap-10 ")}>

@@ -34,7 +34,7 @@ function EducationBox({ college, date, description }: EducationBoxProps) {
         <div className="text-mb-primary lg:text-ds-secondary bold ">{college}</div>
         <span className="text-paragraphText">{date}</span>
       </div>
-      <p className="font-dmSans text-mb-paragraphText text-paragraph lg:text-paragraphText ">
+      <p className="leading-6 font-dmSans text-mb-paragraphText text-paragraph lg:text-paragraphText ">
         {description}
       </p>
     </article>

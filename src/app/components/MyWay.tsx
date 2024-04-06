@@ -7,7 +7,7 @@ export default function MyWay() {
 
       <div className="px-2 font-nanumPen flex lg:items-center justify-center flex-col md:flex-row max-md:gap-24">
         <div className="bg-clip-text text-transparent bg-linear text-mb-floatText md:text-floatText max-w-64 md:max-w-sm">
-          Comencé la CARRERA EN GRáfiCA y ANIMACIón digital en EL AÑO 2021.
+          Comencé la carrera EN gráfica y animación digital en el año 2021.
         </div>
         <img className="md:block hidden" src="svgs/MyWay.svg" alt="my way svg" />
         <img className="md:hidden absolute  xs:right-10 right-0" src="svgs/MyWayMobile.svg" alt="my way svg" />
