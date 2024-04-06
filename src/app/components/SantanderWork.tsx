@@ -1,6 +1,6 @@
 export default function SantanderWork() {
   return (
-    <div className="w-full px-8 pt-20 lg:pb-40 lg:px-20 max-lg:mt-24">
+    <div className="w-full px-8 pt-20 lg:pb-40 lg:px-20 mt-24">
       <img
           className="absolute left-[20%] hidden lg:block "
           src="svgs/SantanderArrow.svg"
