@@ -1,4 +1,3 @@
-import VectorPig from "./ui/VectorPig";
 
 export default function Opinions() {
   return (
@@ -9,7 +8,7 @@ export default function Opinions() {
         </div>
         <img className="max-lg:hidden" src="Happy_Face.png" alt="cara feliz png" />
       </div>
-      <VectorPig className="max-lg:hidden mt-5 lg:mt-10 w-full" startColor="#C0F0FF" endColor="#A9FE81" />
+      <img className="max-lg:hidden mt-5 lg:mt-10 w-3/5 mx-auto" src="svgs/VectorPig_2.svg" alt="asd"/>
 
     </section>
   );
