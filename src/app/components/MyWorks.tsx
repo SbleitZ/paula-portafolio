@@ -60,7 +60,7 @@ export default function MyWorks() {
 function MyWorksIntroduction() {
   return (
     <article className="flex flex-col lg:flex-row justify-center py-10">
-      <div className="text-balance font-nanumPen bg-clip-text text-transparent bg-linear-verde lg:max-w-md text-floatText">
+      <div className="text-balance font-nanumPen bg-clip-text text-transparent bg-linear-verde lg:max-w-md uppercase text-mb-floatText lg:text-floatText">
         Realicé emulaciones de trabajo como diseñadora ux/ui colaborando en equipos multidisciplinarios, para fortalecer mi experiencia laboral.
       </div>
       <img className="mt-6" src="svgs/MyWorks.svg" alt="arrow down svg" />

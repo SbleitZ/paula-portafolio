@@ -7,7 +7,7 @@ export default function SantanderWork() {
           alt="santander arrow svg"
         />
       <section className="flex flex-col lg:justify-between gap-16">
-        <div className="max-lg:mt-10 font-nanumPen text-mb-floatText bg-linear-AMA-VIO bg-clip-text text-transparent lg:text-floatText max-w-lg">
+        <div className="max-lg:mt-10 font-nanumPen text-mb-floatText bg-linear-AMA-VIO bg-clip-text text-transparent uppercase lg:text-floatText max-w-lg">
           Trabajé durante 3 meses en una startup realizando tareas en ux/ui.{" "}
           <br /><br /> Design system, creación de nuevos componentesy análisis
           heurísticos.
@@ -17,7 +17,7 @@ export default function SantanderWork() {
           src="svgs/mbSantanderArrow.svg"
           alt="santander arrow svg"
         />
-        <div className="max-lg:mt-28 self-end font-nanumPen text-mb-floatText bg-linear-AMA-VIO bg-clip-text text-transparent lg:text-floatText max-w-md">
+        <div className="max-lg:mt-28 self-end font-nanumPen text-mb-floatText bg-linear-AMA-VIO bg-clip-text text-transparent uppercase lg:text-floatText max-w-md">
           Disfruto ser pixel perfect. Me encanta buscar la armonía y coherencia
           visual.
         </div>
