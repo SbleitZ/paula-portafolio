@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { FaBehanceSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -26,7 +27,7 @@ const contacts = [
     icon: <FaBehanceSquare color="white" title="behance link" size={64} />,
     gradiantClassName:"bg-linear-violet-azul",
     href:"https://www.behance.net/paugareis",
-    startContent:"Podóes contactarme por",
+    startContent:"Podés contactarme por",
     text:"Behance",
     underline:true,
   },
@@ -75,9 +76,9 @@ function ContactBox({ icon, gradiantClassName,href,startContent,text,underline }
   return (
     <div className="flex flex-col p-10 lg:p-20 gap-2 text-paragraph font-bold justify-center items-center text-mb-paragraphText lg:text-paragraphText">
       {icon}
-      <p className="text-center max-w-md">
+      <div className="text-center max-w-md">
         <GradiantLink {...properties} />
-      </p>
+      </div>
     </div>
   );
 }
