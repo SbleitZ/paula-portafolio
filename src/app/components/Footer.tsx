@@ -74,7 +74,7 @@ interface ContactBoxProps {
 function ContactBox({ icon, gradiantClassName,href,startContent,text,underline }: ContactBoxProps) {
   const properties = {gradiantClassName,href,startContent,text,underline };
   return (
-    <div className="flex flex-col p-10 lg:p-20 gap-2 text-paragraph font-bold justify-center items-center text-mb-paragraphText lg:text-paragraphText">
+    <div className="flex flex-col p-10 lg:p-20 gap-3 lg:gap-10 text-paragraph font-bold justify-center items-center text-mb-paragraphText lg:text-paragraphText">
       {icon}
       <div className="text-center max-w-md">
         <GradiantLink {...properties} />
