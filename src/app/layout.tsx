@@ -9,6 +9,9 @@ const nanumPen = Nanum_Pen_Script({weight:["400"],subsets:["latin"],variable:'--
 export const metadata: Metadata = {
   title: "Paula Gareis - Diseño UX/UI",
   description: "la descripción aquí",
+  icons: {
+    icon: "favicon.ico",
+  },
 };
 
 export default function RootLayout({
