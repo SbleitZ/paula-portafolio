@@ -87,10 +87,10 @@ function MyWorkBox({ college, date, description,buttons }: MyWorkBoxProps) {
         </div>
         <span className="text-paragraphText">{date}</span>
       </div>
-      <p className="leading-6 text-balance font-dmSans text-mb-paragraphText text-paragraph lg:text-paragraphText line-clamp-6 lg:h-64">
+      <p className="leading-6 text-justify font-dmSans text-mb-paragraphText text-paragraph lg:text-paragraphText line-clamp-6 lg:h-64">
         {description}
       </p>
-      <div className={cn("h-24 mt-10",buttons.length == 1 ? "":"flex max-lg:flex-col gap-10 ")}>
+      <div className={cn("h-28 mt-10",buttons.length == 1 ? "":"flex max-lg:flex-col gap-10 ")}>
         {
           buttons.map((props,i)=> <ButtonWorks className="h-full max-lg:w-full" key={i} {...props} />)
         }

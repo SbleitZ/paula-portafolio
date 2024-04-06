@@ -9,7 +9,7 @@ export default function SantanderWork() {
       <section className="flex flex-col lg:justify-between gap-16">
         <div className="max-lg:mt-10 font-nanumPen text-mb-floatText bg-linear-AMA-VIO bg-clip-text text-transparent uppercase lg:text-floatText max-w-lg">
           Trabajé durante 3 meses en una startup realizando tareas en ux/ui.{" "}
-          <br /><br /> Design system, creación de nuevos componentesy análisis
+          <br /><br /> Design system, creación de nuevos componentes y análisis
           heurísticos.
         </div>
         <img

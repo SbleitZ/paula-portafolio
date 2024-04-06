@@ -12,7 +12,7 @@ export default function MyProyects() {
           <div className="flex flex-col items-end">
             <img src="svgs/Figma.svg" className="w-20 h-20 self-end mr-8" alt="figma icon" />
             <div className="self-center font-nanumPen text-mb-floatText text-wrap bg-linear-violet-azul bg-clip-text text-transparent uppercase lg:text-floatText">
-                Wirefrimes en alta de algunos proyectos
+                Wireframes en alta de algunos proyectos
             </div>
           </div>
         </div>
