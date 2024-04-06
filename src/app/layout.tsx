@@ -9,6 +9,17 @@ const nanumPen = Nanum_Pen_Script({weight:["400"],subsets:["latin"],variable:'--
 export const metadata: Metadata = {
   title: "Paula Gareis - Diseño UX/UI",
   description: "la descripción aquí",
+  keywords:["diseñadora","paula gareis"],
+  authors:[
+    {
+    name:"Rodrigo Palacios",
+    url:"https://sbleit.net",
+    },
+    {
+      name:"Paula Gareis",
+      url:"https://www.behance.net/paugareis",
+    }
+  ],
   icons: {
     icon: "/favicon.ico",
   },
