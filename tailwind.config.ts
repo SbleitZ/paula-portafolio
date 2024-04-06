@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      flexGrow:{
+        2:'2',
+        3:'3',
+        4:'4',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -24,6 +29,7 @@ const config: Config = {
         paragraph:'#ffffff',
         'linear-hero':'linear-gradient(90deg, rgba(219,166,244,1) 0%, rgba(169,129,254,1) 100%)',
         button:'#C0F0FF',
+        buttonHover:'rgba(192,240,255,0.7)',
 
       },
       borderColor:{
